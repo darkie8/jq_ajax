@@ -1,0 +1,196 @@
+
+
+.ModalS{
+    background: rgba(0, 0, 0,.4);
+     position: fixed;
+
+}
+
+.Zind{
+    z-index: 100;
+}
+.Overflw{
+    overflow: hidden;
+
+}
+.modalP{
+    margin: 0vh auto auto auto;
+    width: 40vw;
+    background: white;
+    border-radius: 1vw;
+    opacity: 0;
+    z-index: 101;
+    position: absolute;
+    left: 30vw;
+}
+.modalH{
+    padding: 1vw 2vw .5vw 2vw;
+    font-size: 2vw;
+}
+.modalM{
+    padding: 1vw 2vw 5vw 2vw;
+    font-size: 1.2vw;
+}
+.buttonIns{
+    padding: 0%;
+    text-align: center;
+    height: 3vw;
+    width: 7vw;
+    font-size: 2vw;
+    font-size: 90%;
+    border: 1px solid black;
+    
+    font-family:  'IBM Plex Mono', monospace;
+    border-radius: 9%;
+}
+
+@media screen and (max-width:900px) {
+    .modalP{
+        width: 50vw;
+        left: 25vw;
+    }
+    .modalH{
+        padding: 1vw 2vw .5vw 2vw;
+        font-size: 2.5vw;
+    }
+    .modalM{
+        padding: 1vw 2vw 5vw 2vw;
+        font-size: 2vw;
+    }
+    .buttonIns{
+    height: 3.5vw;
+    width: 8vw;
+    font-size: 70%;
+    
+}
+}
+@media screen and (max-width:680px) {
+    .modalP{
+        width: 60vw;
+        left: 20vw;
+    }
+    .modalH{
+        padding: 1vw 2vw .5vw 2vw;
+        font-size: 4vw;
+    }
+    .modalM{
+        padding: 1vw 2vw 5vw 2vw;
+        font-size: 2vw;
+    }
+    .buttonIns{
+    height: 4.4vw;
+    width: 9vw;
+    font-size: 60%;
+    
+}
+}
+@media screen and (max-width:570px) {
+    .modalP{
+        width: 70vw;
+        left: 15vw;
+    }
+    .modalH{
+        padding: 1vw 2vw .5vw 2vw;
+        font-size: 6vw;
+    }
+    .modalM{
+        padding: 1vw 2vw 5vw 2vw;
+        font-size: 3.4vw;
+    }
+    .buttonIns{
+    height: 5.2vw;
+    width: 10vw;
+    font-size: 50%;
+    
+}
+}
+@media screen and (max-width:400px) {
+    .modalP{
+        width: 80vw;
+        left: 10vw;
+    }
+    .modalH{
+        padding: 1vw 2vw .5vw 2vw;
+        font-size: 5vw;
+    }
+    .modalM{
+        padding: 1vw 2vw 5vw 2vw;
+        font-size: 4vw;
+    }
+    .buttonIns{
+    height: 6vw;
+    width: 18vw;
+    font-size: 50%
+}
+}
+
+
+
+.modalF{
+    padding: 2vw;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+}
+.buttonMod{
+    padding: 0vw .5vw 0vw .5vw;
+}
+
+.sicko{
+    overflow-y: hidden;
+    height: 0vh;
+    width: 0vw;
+}
+.freako{
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw
+}
+.form{
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+     overflow: hidden;
+}
+form{
+    margin: 0%;
+    padding: 0px 10px
+    
+}
+.font-sz{
+    font-size: 15px;
+    position: relative;
+}
+.buttonheight{
+    border: none;
+    background-color: rgb(235, 203, 203);
+    padding: 2px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+.email{
+    border-right: 0px;
+    border-width: 1px 0px 1px 1px;     
+    border-style: solid;
+    width: 80%
+    
+}
